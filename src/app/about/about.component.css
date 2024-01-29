@@ -1,0 +1,14 @@
+.row-margin-20{
+    top:50%;
+}
+.carHeading{
+    text-align: center;
+}
+
+.carHeading span{
+    color: #ff0000;
+}
+
+.card-body span{
+    color: #ff0000;
+}

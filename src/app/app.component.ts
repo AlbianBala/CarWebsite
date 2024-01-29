@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CarWebsite';
+  public goToCar() : void{
+    window.scrollTo(0, 950);
+  }  
+  public goToAbout() : void{
+    window.scrollTo(0, 2470);
+  }
+  public goToContact() : void{
+    window.scrollTo(0, 3600);
+  }
 }

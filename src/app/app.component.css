@@ -1,0 +1,30 @@
+.bg-image{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   }
+   .navbar-brand span{
+       color: red;
+   }
+   .wheel{
+       display: block;
+       position: relative;
+       top:50%;
+       left: 50%;
+       width: 150px;
+       height: 150px;
+       margin: -60px 0 0 -280px;
+       -webkit-animation: spin 1s linear infinite;
+       -moz-animation: spin 1s linear infinite;
+       animation: spin 1s linear infinite;
+   }
+   
+   .row-margin-20 { margin-top: 1.0em; }
+   
+   #contact b{
+       color: white;
+   }
