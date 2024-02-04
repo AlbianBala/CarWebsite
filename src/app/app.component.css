@@ -28,3 +28,56 @@
    #contact b{
        color: white;
    }
+
+   .img_deg{
+    float: right;
+    width: 30%;
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+   }
+
+   @-webkit-keyframes spin{
+    100%{
+        -webkit-transform :rotate(360deg);
+    }
+   }
+   @-moz-keyframes spin{
+    100%{
+        -webkit-transform :rotate(360deg);
+    }
+   }
+   @keyframes spin{
+    100%{
+        -webkit-transform :rotate(360deg);
+    }
+   }
+
+   .pos_cen{
+    position: absolute;
+    top:50%;
+   }
+
+   .text {
+    position: absolute;
+    font-size: medium;
+   }
+
+   .text span{
+    color: red;
+   }
+
+   @media (max-width: 1024px) {
+    .img_deg{
+        height: 100px;
+        width: 100px;
+    }
+    .text{
+        font-size: medium;
+        margin-left: 10px;
+    }
+    
+   }
